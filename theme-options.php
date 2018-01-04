@@ -1,9 +1,9 @@
 <?php
 //Файл настройки темы в wordpress
 /*
-В папке themes/MtThemes/css/skins/**.css/
-создайте файлы с разными темами. С помощью theme-options.php
-вы сможете менять темы-скины вашего сайта
+*В папке themes/MtThemes/css/skins/**.css/
+*создайте файлы с разными темами. С помощью theme-options.php
+*вы сможете менять темы-скины вашего сайта
 */
 add_action( 'admin_init', 'theme_options_init' );
 add_action( 'admin_menu', 'theme_options_add_page' );
